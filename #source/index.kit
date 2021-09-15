@@ -1,0 +1,921 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ERKINSTUDY</title>
+    <link rel="shortcut icon" href="img/icons/favi.svg" />
+
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/slick.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content modal-radius">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalToggleLabel">
+              Заполните форму
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <form action="">
+              <div class="form-floating mb-3">
+                <input
+                  type="text"
+                  class="form-control"
+                  id="floatingInput"
+                  placeholder="Как вас зовут ?"
+                  required=""
+                />
+                <label for="floatingInput">Как вас зовут ?</label>
+              </div>
+              <div class="form-floating mb-3">
+                <input
+                  type="tel"
+                  class="form-control"
+                  id="phone"
+                  placeholder="Ваш номер телефона"
+                  required=""
+                />
+                <label for="floatingPassword">Ваш номер телефона</label>
+              </div>
+              <div class="form-check d-flex align-items-center mb-4">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                  id="flexCheckDefault"
+                  required=""
+                />
+                <label class="form-check-label ms-2" for="flexCheckDefault">
+                  Я согласен на обработку данных
+                </label>
+              </div>
+              <button class="modal-form-btn">Отправить заявку</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- @import "header.html" -->
+    <section class="block1">
+      <div class="el5">
+        <img src="img/icons/el3.svg" alt="" />
+      </div>
+      <div class="el6">
+        <img src="img/icons/el1.svg" alt="" />
+      </div>
+      <div class="el7">
+        <div class="borderLine"></div>
+      </div>
+      <div class="container">
+        <div class="el1">
+          <img src="img/icons/el1.svg" alt="" />
+        </div>
+        <div class="el4">
+          <img src="img/icons/el3.svg" alt="" />
+        </div>
+        <div class="row align-items-center">
+          <div
+            class="col-lg-6 d-flex flex-column align-items-center d-lg-block"
+          >
+            <h1>
+              <span>Уникальный</span>
+              <br />
+              торговый продукт
+            </h1>
+            <p class="subText">Қазан легіне тіркелу үшін</p>
+            <button
+              type="button"
+              class="btn btn-primary main"
+              data-bs-toggle="modal"
+              data-bs-target="#exampleModal"
+            >
+              Тіркелу
+            </button>
+          </div>
+          <div class="col-lg-6 d-flex justify-content-center">
+            <img class="img1" src="img/woman.svg" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="block2" id="about_us">
+      <div class="el6">
+        <img src="img/icons/el1.svg" alt="" />
+      </div>
+      <div class="el7">
+        <img src="img/icons/el1.svg" alt="" />
+      </div>
+      <div class="el8">
+        <img src="img/icons/el13.svg" alt="" />
+      </div>
+      <div class="el9">
+        <img src="img/icons/el13.svg" alt="" />
+      </div>
+      <div class="el5">
+        <img src="img/icons/el2.svg" alt="" />
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <h3 class="title">Біздің курс туралы</h3>
+            <div class="roundContent">
+              <div class="left">
+                <div class="item">
+                  <div class="head">
+                    <p class="num">8</p>
+                    <p class="name">Мобильді қосымша</p>
+                  </div>
+                  <p class="text">
+                    Сабақтарды, тесттерді, тапсырмаларды ыңғайлы орындауға
+                    арналған мобильді қосымша жасалған
+                  </p>
+                </div>
+                <div class="item">
+                  <div class="head">
+                    <p class="num">7</p>
+                    <p class="name">Өзіндік жұмыс</p>
+                  </div>
+                  <p class="text">
+                    Әр ай сайын оқушылар жұптарға бөлініп, бір ай бойы өтілген
+                    тақырыптарға байланысты өзіндік жұмыстар жүргізеді
+                  </p>
+                </div>
+                <div class="item">
+                  <div class="head">
+                    <p class="num">6</p>
+                    <p class="name">Тікелей эфир</p>
+                  </div>
+                  <p class="text">
+                    Әр апта, әр пәннен біздің мұғалімдермен тікелей эфирде
+                    қосымша сабақтар өтіледі
+                  </p>
+                </div>
+              </div>
+              <div class="center">
+                <div class="item">
+                  <div class="head">
+                    <p class="num">1</p>
+                    <p class="name">Онлайн</p>
+                  </div>
+                  <p class="text">
+                    Еркін Оқушы қауіпсіз, ыңғайлы уақытта, ыңғайлы ортада онлайн
+                    форматта қол жетімді білім алады
+                  </p>
+                </div>
+                <div class="item">
+                  <img src="img/roundLogo.png" alt="" />
+                </div>
+                <div class="item">
+                  <div class="head">
+                    <p class="num">5</p>
+                    <p class="name">Кураторлар</p>
+                  </div>
+                  <p class="text">
+                    Оқушылардың жұмысын бақылау мақсатында, топтарға жеке
+                    кураторлар бекітіледі
+                  </p>
+                </div>
+              </div>
+              <div class="right">
+                <div class="item">
+                  <div class="head">
+                    <p class="num">2</p>
+                    <p class="name">Сабақтар</p>
+                  </div>
+                  <p class="text">
+                    Әр пәннен ұзақтығы 5-10-15 минуттық, коспекстісі қосылған,
+                    70+ сабақтар
+                  </p>
+                </div>
+                <div class="item">
+                  <div class="head">
+                    <p class="num">3</p>
+                    <p class="name">Тапсырмалар</p>
+                  </div>
+                  <p class="text">
+                    Әр сабақтан соң, сол сабаққа қатысты ҰБТ базасының сұрақтары
+                    беріледі
+                  </p>
+                </div>
+                <div class="item">
+                  <div class="head">
+                    <p class="num">4</p>
+                    <p class="name">Байқау сынақтамасы</p>
+                  </div>
+                  <p class="text">
+                    Әр сабақтан соң, сол сабаққа қатысты ҰБТ базасының сұрақтары
+                    беріледі
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="roundContent response">
+              <div class="item">
+                <div class="head">
+                  <p class="num">1</p>
+                  <p class="name">Онлайн</p>
+                </div>
+                <p class="text">
+                  Еркін Оқушы қауіпсіз, ыңғайлы уақытта, ыңғайлы ортада онлайн
+                  форматта қол жетімді білім алады
+                </p>
+              </div>
+              <div class="item">
+                <div class="head">
+                  <p class="num">2</p>
+                  <p class="name">Сабақтар</p>
+                </div>
+                <p class="text">
+                  Әр пәннен ұзақтығы 5-10-15 минуттық, коспекстісі қосылған, 70+
+                  сабақтар
+                </p>
+              </div>
+              <div class="item">
+                <div class="head">
+                  <p class="num">3</p>
+                  <p class="name">Тапсырмалар</p>
+                </div>
+                <p class="text">
+                  Әр сабақтан соң, сол сабаққа қатысты ҰБТ базасының сұрақтары
+                  беріледі
+                </p>
+              </div>
+              <div class="item">
+                <div class="head">
+                  <p class="num">4</p>
+                  <p class="name">Байқау сынақтамасы</p>
+                </div>
+                <p class="text">
+                  Әр сабақтан соң, сол сабаққа қатысты ҰБТ базасының сұрақтары
+                  беріледі
+                </p>
+              </div>
+              <div class="item">
+                <div class="head">
+                  <p class="num">5</p>
+                  <p class="name">Кураторлар</p>
+                </div>
+                <p class="text">
+                  Оқушылардың жұмысын бақылау мақсатында, топтарға жеке
+                  кураторлар бекітіледі
+                </p>
+              </div>
+              <div class="item">
+                <div class="head">
+                  <p class="num">6</p>
+                  <p class="name">Тікелей эфир</p>
+                </div>
+                <p class="text">
+                  Әр апта, әр пәннен біздің мұғалімдермен тікелей эфирде қосымша
+                  сабақтар өтіледі
+                </p>
+              </div>
+              <div class="item">
+                <div class="head">
+                  <p class="num">7</p>
+                  <p class="name">Өзіндік жұмыс</p>
+                </div>
+                <p class="text">
+                  Әр ай сайын оқушылар жұптарға бөлініп, бір ай бойы өтілген
+                  тақырыптарға байланысты өзіндік жұмыстар жүргізеді
+                </p>
+              </div>
+              <div class="item">
+                <div class="head">
+                  <p class="num">8</p>
+                  <p class="name">Мобильді қосымша</p>
+                </div>
+                <p class="text">
+                  Сабақтарды, тесттерді, тапсырмаларды ыңғайлы орындауға
+                  арналған мобильді қосымша жасалған
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="block3" id="paketter">
+      <div class="el9">
+        <img src="img/icons/el9.svg" alt="" />
+      </div>
+      <div class="el10">
+        <img src="img/icons/el10.svg" alt="" />
+      </div>
+      <div class="el11">
+        <img src="img/icons/el10.svg" alt="" />
+      </div>
+      <div class="el12">
+        <img src="img/icons/el3.svg" alt="" />
+      </div>
+      <div class="container">
+        <div class="row">
+          <h3 class="title">Пакеттер</h3>
+          <div class="col-md-4">
+            <div class="item blue">
+              <div class="head">
+                <p class="text">Стандарт</p>
+              </div>
+              <div class="itemBody">
+                <ul>
+                  <li>
+                    <div class="checkEl">
+                      <i class="fas fa-check"></i>
+                    </div>
+                    5 пәннен дайындық видеосабақтары
+                  </li>
+                  <li>
+                    <div class="checkEl">
+                      <i class="fas fa-check"></i>
+                    </div>
+                    Тақырыптық тест жұмыстары
+                  </li>
+                  <li>
+                    <div class="checkEl">
+                      <i class="fas fa-check"></i>
+                    </div>
+                    Тақырыптық конспектілер
+                  </li>
+                  <li>
+                    <div class="checkEl">
+                      <i class="fas fa-check"></i>
+                    </div>
+                    Платформаға доступ (сайт, мобильді қосымша)
+                  </li>
+                  <li>
+                    <div class="checkEl">
+                      <i class="fas fa-check"></i>
+                    </div>
+                    Апта сайын ҰБТ сынақтамасы
+                  </li>
+                  <li>
+                    <div class="checkEl">
+                      <i class="fas fa-check"></i>
+                    </div>
+                    Техникалық көмек үшін куратор
+                  </li>
+                </ul>
+              </div>
+              <div class="btnBlock">
+                <button
+                  type="button"
+                  class="btn-item btn-primary"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal"
+                >
+                  Выбрать
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="item green">
+              <div class="head">
+                <p class="text">Стандарт</p>
+              </div>
+              <div class="itemBody">
+                <ul>
+                  <li>
+                    <div class="checkEl">
+                      <i class="fas fa-check"></i>
+                    </div>
+                    5 пәннен дайындық видеосабақтары
+                  </li>
+                  <li>
+                    <div class="checkEl">
+                      <i class="fas fa-check"></i>
+                    </div>
+                    Тақырыптық тест жұмыстары
+                  </li>
+                  <li>
+                    <div class="checkEl">
+                      <i class="fas fa-check"></i>
+                    </div>
+                    Тақырыптық конспектілер
+                  </li>
+                  <li>
+                    <div class="checkEl">
+                      <i class="fas fa-check"></i>
+                    </div>
+                    Платформаға доступ (сайт, мобильді қосымша)
+                  </li>
+                  <li>
+                    <div class="checkEl">
+                      <i class="fas fa-check"></i>
+                    </div>
+                    Апта сайын ҰБТ сынақтамасы
+                  </li>
+                  <li>
+                    <div class="checkEl">
+                      <i class="fas fa-check"></i>
+                    </div>
+                    Техникалық көмек үшін куратор
+                  </li>
+                </ul>
+              </div>
+              <div class="btnBlock">
+                <button
+                  type="button"
+                  class="btn-item btn-primary"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal"
+                >
+                  Выбрать
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="item purple">
+              <div class="head">
+                <p class="text">Стандарт</p>
+              </div>
+              <div class="itemBody">
+                <ul>
+                  <li>
+                    <div class="checkEl">
+                      <i class="fas fa-check"></i>
+                    </div>
+                    5 пәннен дайындық видеосабақтары
+                  </li>
+                  <li>
+                    <div class="checkEl">
+                      <i class="fas fa-check"></i>
+                    </div>
+                    Тақырыптық тест жұмыстары
+                  </li>
+                  <li>
+                    <div class="checkEl">
+                      <i class="fas fa-check"></i>
+                    </div>
+                    Тақырыптық конспектілер
+                  </li>
+                  <li>
+                    <div class="checkEl">
+                      <i class="fas fa-check"></i>
+                    </div>
+                    Платформаға доступ (сайт, мобильді қосымша)
+                  </li>
+                  <li>
+                    <div class="checkEl">
+                      <i class="fas fa-check"></i>
+                    </div>
+                    Апта сайын ҰБТ сынақтамасы
+                  </li>
+                  <li>
+                    <div class="checkEl">
+                      <i class="fas fa-check"></i>
+                    </div>
+                    Техникалық көмек үшін куратор
+                  </li>
+                </ul>
+              </div>
+              <div class="btnBlock">
+                <button
+                  type="button"
+                  class="btn-item btn-primary"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal"
+                >
+                  Выбрать
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="block4" id="mug">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <h3 class="title">Мұғалімдер</h3>
+            <div class="slider">
+              <div class="slider__item filter">
+                <div class="teacherLeft">
+                  <div class="head">
+                    <img src="img/icons/hisGreen.svg" alt="" />
+                    <p class="text">Қазақстан Тарихы</p>
+                  </div>
+                  <img
+                    class="texcherImgResponse"
+                    src="img/teacherMan.svg"
+                    alt=""
+                  />
+                  <p class="name">Ақылжан Дүйсенғалиұлы</p>
+                  <p class="contentText">
+                    1000+ оқушыны онлайн, 100+ оқушы офлайн ҰБТға дайындаған.
+                  </p>
+                  <p class="contentText">Білімі: Л.Н.Гумилев атындағы</p>
+                  <p class="contentText">
+                    Еуразия Ұлттық Университеті, «Тарих» мамандығы.
+                  </p>
+                  <p class="contentText">
+                    Қазақстан тарихы пәнінен Республикалық пәндік олимпиаданың
+                    жеңімпазы.
+                  </p>
+                </div>
+                <img class="texcherImg" src="img/teacherMan.svg" alt="" />
+              </div>
+              <div class="slider__item">
+                <div class="teacherLeft">
+                  <div class="head">
+                    <img src="img/icons/hisOrange.svg" alt="" />
+                    <p class="text">Қазақстан Тарихы</p>
+                  </div>
+                  <img
+                    class="texcherImgResponse"
+                    src="img/teacherWoman.svg"
+                    alt=""
+                  />
+                  <p class="name">Аяжан Жолдас</p>
+                  <p class="contentText">
+                    100+ оқушы ҰБТ-ға дайындаған. Білімі: Сулейман Демирель
+                    Университеті, «Екі Шет тілі» мамандығы. Team Enactus 2019
+                    жеңімпазы.
+                  </p>
+                </div>
+                <img class="texcherImg" src="img/teacherWoman.svg" alt="" />
+              </div>
+              <div class="slider__item">
+                <div class="teacherLeft">
+                  <div class="head">
+                    <img src="img/icons/hisGreen.svg" alt="" />
+                    <p class="text">Қазақстан Тарихы</p>
+                  </div>
+                  <img
+                    class="texcherImgResponse"
+                    src="img/teacherMan.svg"
+                    alt=""
+                  />
+                  <p class="name">Ақылжан Дүйсенғалиұлы</p>
+                  <p class="contentText">
+                    1000+ оқушыны онлайн, 100+ оқушы офлайн ҰБТға дайындаған.
+                  </p>
+                  <p class="contentText">Білімі: Л.Н.Гумилев атындағы</p>
+                  <p class="contentText">
+                    Еуразия Ұлттық Университеті, «Тарих» мамандығы.
+                  </p>
+                  <p class="contentText">
+                    Қазақстан тарихы пәнінен Республикалық пәндік олимпиаданың
+                    жеңімпазы.
+                  </p>
+                </div>
+                <img class="texcherImg" src="img/teacherMan.svg" alt="" />
+              </div>
+              <div class="slider__item">
+                <div class="teacherLeft">
+                  <div class="head">
+                    <img src="img/icons/hisOrange.svg" alt="" />
+                    <p class="text">Қазақстан Тарихы</p>
+                  </div>
+                  <img
+                    class="texcherImgResponse"
+                    src="img/teacherWoman.svg"
+                    alt=""
+                  />
+                  <p class="name">Аяжан Жолдас</p>
+                  <p class="contentText">
+                    100+ оқушы ҰБТ-ға дайындаған. Білімі: Сулейман Демирель
+                    Университеті, «Екі Шет тілі» мамандығы. Team Enactus 2019
+                    жеңімпазы.
+                  </p>
+                </div>
+                <img class="texcherImg" src="img/teacherWoman.svg" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="block5" id="keri">
+      <div class="el14">
+        <img src="img/icons/el11.svg" alt="" />
+      </div>
+      <div class="el15">
+        <img src="img/icons/el11.svg" alt="" />
+      </div>
+      <div class="el16">
+        <img src="img/icons/el11.svg" alt="" />
+      </div>
+      <div class="el17">
+        <img src="img/icons/el11.svg" alt="" />
+      </div>
+      <div class="el18">
+        <img src="img/icons/el12.svg" alt="" />
+      </div>
+      <div class="el19">
+        <img src="img/icons/el12.svg" alt="" />
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <h3 class="title">Кері байланыс</h3>
+            <div class="tabsBlock">
+              <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                <li class="nav-item" role="presentation">
+                  <button
+                    class="nav-link active"
+                    id="pills-home-tab"
+                    data-bs-toggle="pill"
+                    data-bs-target="#pills-home"
+                    type="button"
+                    role="tab"
+                    aria-controls="pills-home"
+                    aria-selected="true"
+                  >
+                    <img src="img/Group 1000001462.png" alt="" />
+                  </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button
+                    class="nav-link"
+                    id="pills-profile-tab"
+                    data-bs-toggle="pill"
+                    data-bs-target="#pills-profile"
+                    type="button"
+                    role="tab"
+                    aria-controls="pills-profile"
+                    aria-selected="false"
+                  >
+                    <img src="img/Group 1000001460.png" alt="" />
+                  </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button
+                    class="nav-link"
+                    id="pills-contact-tab"
+                    data-bs-toggle="pill"
+                    data-bs-target="#pills-contact"
+                    type="button"
+                    role="tab"
+                    aria-controls="pills-contact"
+                    aria-selected="false"
+                  >
+                    <img src="img/Group 1000001461.png" alt="" />
+                  </button>
+                </li>
+              </ul>
+              <div class="tab-content" id="pills-tabContent">
+                <div
+                  class="tab-pane fade show active"
+                  id="pills-home"
+                  role="tabpanel"
+                  aria-labelledby="pills-home-tab"
+                >
+                  <p class="text">
+                    Менің ең сүйікті,Қазақстандағы #1 курсым олErkin Study.
+                    Erkin Study мұғалімдері ЕҰУ, Назарбаев университеті,
+                    әл-Фараби атындағы қазақ ұлттық университеті сияқты ең үздік
+                    ЖОО-да білім алған, білімдері жоғары ұжым.
+                  </p>
+                  <p class="text">
+                    Бұл курста ең кереметі ҰБТ-да келетін нәрселерді уақ
+                    түйегіне дейін үйретеді. Бұл курсқа сүйеніп оқыған адам
+                    ҰБТ-дан гарантия 130+ бал жинайды.
+                  </p>
+                  <p class="text">
+                    Шыныменде бұл рас, бұл курсқа қанша мақтау айтсаң да
+                    жетпейді.
+                  </p>
+                  <div class="tabsImg">
+                    <img src="img/reviewImg.svg" alt="" />
+                  </div>
+                  <div class="name">
+                    <p>Ержан Жібек</p>
+                    <span>Еркін оқушы</span>
+                  </div>
+                </div>
+                <div
+                  class="tab-pane fade"
+                  id="pills-profile"
+                  role="tabpanel"
+                  aria-labelledby="pills-profile-tab"
+                >
+                  <p class="text">
+                    Менің ең сүйікті,Қазақстандағы #1 курсым олErkin Study.
+                    Erkin Study мұғалімдері ЕҰУ, Назарбаев университеті,
+                    әл-Фараби атындағы қазақ ұлттық университеті сияқты ең үздік
+                    ЖОО-да білім алған, білімдері жоғары ұжым.
+                  </p>
+                  <p class="text">
+                    Бұл курста ең кереметі ҰБТ-да келетін нәрселерді уақ
+                    түйегіне дейін үйретеді. Бұл курсқа сүйеніп оқыған адам
+                    ҰБТ-дан гарантия 130+ бал жинайды.
+                  </p>
+                  <p class="text">
+                    Шыныменде бұл рас, бұл курсқа қанша мақтау айтсаң да
+                    жетпейді.
+                  </p>
+                  <div class="tabsImg">
+                    <img src="img/reviewImg.svg" alt="" />
+                  </div>
+                  <div class="name">
+                    <p>Ержан Жібек</p>
+                    <span>Еркін оқушы</span>
+                  </div>
+                </div>
+                <div
+                  class="tab-pane fade"
+                  id="pills-contact"
+                  role="tabpanel"
+                  aria-labelledby="pills-contact-tab"
+                >
+                  <p class="text">
+                    Менің ең сүйікті,Қазақстандағы #1 курсым олErkin Study.
+                    Erkin Study мұғалімдері ЕҰУ, Назарбаев университеті,
+                    әл-Фараби атындағы қазақ ұлттық университеті сияқты ең үздік
+                    ЖОО-да білім алған, білімдері жоғары ұжым.
+                  </p>
+                  <p class="text">
+                    Бұл курста ең кереметі ҰБТ-да келетін нәрселерді уақ
+                    түйегіне дейін үйретеді. Бұл курсқа сүйеніп оқыған адам
+                    ҰБТ-дан гарантия 130+ бал жинайды.
+                  </p>
+                  <p class="text">
+                    Шыныменде бұл рас, бұл курсқа қанша мақтау айтсаң да
+                    жетпейді.
+                  </p>
+                  <div class="tabsImg">
+                    <img src="img/reviewImg.svg" alt="" />
+                  </div>
+                  <div class="name">
+                    <p>Ержан Жібек</p>
+                    <span>Еркін оқушы</span>
+                  </div>
+                </div>
+                <div
+                  class="tab-pane fade"
+                  id="pills-contact2"
+                  role="tabpanel"
+                  aria-labelledby="pills-contact-tab"
+                >
+                  <p class="text">
+                    Менің ең сүйікті,Қазақстандағы #1 курсым олErkin Study.
+                    Erkin Study мұғалімдері ЕҰУ, Назарбаев университеті,
+                    әл-Фараби атындағы қазақ ұлттық университеті сияқты ең үздік
+                    ЖОО-да білім алған, білімдері жоғары ұжым.
+                  </p>
+                  <p class="text">
+                    Бұл курста ең кереметі ҰБТ-да келетін нәрселерді уақ
+                    түйегіне дейін үйретеді. Бұл курсқа сүйеніп оқыған адам
+                    ҰБТ-дан гарантия 130+ бал жинайды.
+                  </p>
+                  <p class="text">
+                    Шыныменде бұл рас, бұл курсқа қанша мақтау айтсаң да
+                    жетпейді.
+                  </p>
+                  <div class="tabsImg">
+                    <img src="img/reviewImg.svg" alt="" />
+                  </div>
+                  <div class="name">
+                    <p>Ержан Жібек</p>
+                    <span>Еркін оқушы</span>
+                  </div>
+                </div>
+                <div
+                  class="tab-pane fade"
+                  id="pills-contact3"
+                  role="tabpanel"
+                  aria-labelledby="pills-contact-tab"
+                >
+                  <p class="text">
+                    Менің ең сүйікті,Қазақстандағы #1 курсым олErkin Study.
+                    Erkin Study мұғалімдері ЕҰУ, Назарбаев университеті,
+                    әл-Фараби атындағы қазақ ұлттық университеті сияқты ең үздік
+                    ЖОО-да білім алған, білімдері жоғары ұжым.
+                  </p>
+                  <p class="text">
+                    Бұл курста ең кереметі ҰБТ-да келетін нәрселерді уақ
+                    түйегіне дейін үйретеді. Бұл курсқа сүйеніп оқыған адам
+                    ҰБТ-дан гарантия 130+ бал жинайды.
+                  </p>
+                  <p class="text">
+                    Шыныменде бұл рас, бұл курсқа қанша мақтау айтсаң да
+                    жетпейді.
+                  </p>
+                  <div class="tabsImg">
+                    <img src="img/reviewImg.svg" alt="" />
+                  </div>
+                  <div class="name">
+                    <p>Ержан Жібек</p>
+                    <span>Еркін оқушы</span>
+                  </div>
+                </div>
+                <div
+                  class="tab-pane fade"
+                  id="pills-contact4"
+                  role="tabpanel"
+                  aria-labelledby="pills-contact-tab"
+                >
+                  <p class="text">
+                    Менің ең сүйікті,Қазақстандағы #1 курсым олErkin Study.
+                    Erkin Study мұғалімдері ЕҰУ, Назарбаев университеті,
+                    әл-Фараби атындағы қазақ ұлттық университеті сияқты ең үздік
+                    ЖОО-да білім алған, білімдері жоғары ұжым.
+                  </p>
+                  <p class="text">
+                    Бұл курста ең кереметі ҰБТ-да келетін нәрселерді уақ
+                    түйегіне дейін үйретеді. Бұл курсқа сүйеніп оқыған адам
+                    ҰБТ-дан гарантия 130+ бал жинайды.
+                  </p>
+                  <p class="text">
+                    Шыныменде бұл рас, бұл курсқа қанша мақтау айтсаң да
+                    жетпейді.
+                  </p>
+                  <div class="tabsImg">
+                    <img src="img/reviewImg.svg" alt="" />
+                  </div>
+                  <div class="name">
+                    <p>Ержан Жібек</p>
+                    <span>Еркін оқушы</span>
+                  </div>
+                </div>
+              </div>
+              <ul
+                class="nav nav-pills second mb-3"
+                id="pills-tab"
+                role="tablist"
+              >
+                <li class="nav-item" role="presentation">
+                  <button
+                    class="nav-link"
+                    id="pills-contact-tab"
+                    data-bs-toggle="pill"
+                    data-bs-target="#pills-contact2"
+                    type="button"
+                    role="tab"
+                    aria-controls="pills-contact2"
+                    aria-selected="false"
+                  >
+                    <img src="img/Group 1000001459.png" alt="" />
+                  </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button
+                    class="nav-link"
+                    id="pills-contact-tab"
+                    data-bs-toggle="pill"
+                    data-bs-target="#pills-contact3"
+                    type="button"
+                    role="tab"
+                    aria-controls="pills-contact3"
+                    aria-selected="false"
+                  >
+                    <img src="img/Group 1000001457.png" alt="" />
+                  </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button
+                    class="nav-link"
+                    id="pills-contact-tab"
+                    data-bs-toggle="pill"
+                    data-bs-target="#pills-contact4"
+                    type="button"
+                    role="tab"
+                    aria-controls="pills-contact4"
+                    aria-selected="false"
+                  >
+                    <img src="img/Group 1000001458.png" alt="" />
+                  </button>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- @import "footer.html" -->
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/jq/jquery.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.maskedinput/1.4.1/jquery.maskedinput.min.js"></script>
+    <script
+      src="https://kit.fontawesome.com/9f213f9ec4.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
