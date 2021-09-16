@@ -1103,6 +1103,7 @@ h6 {
   padding: 36px 30px;
   margin: 0px 15px;
   outline: none;
+  transition: all ease 0.3s;
   @media (max-width: 991px) {
     padding: 16px 16px;
     margin: 0px 10px;
@@ -1234,8 +1235,17 @@ h6 {
     z-index: 1;
   }
 }
+.tabImgBtn {
+  transition: all ease 0.3s;
+}
 .nav-pills .nav-link {
   color: #ffffff;
+  &:hover .tabImgBtn {
+    transform: scale(1.2);
+    @media (max-width: 991px) {
+      transform: scale(1.2) rotate(-90deg);
+    }
+  }
   img {
     @media (max-width: 991px) {
       transform: rotate(-90deg);
@@ -1430,6 +1440,10 @@ footer {
     padding: 0px 0px 0px 0px;
     li {
       margin: 0px 0px 0px 23px;
+      transition: all ease 0.3s;
+      &:hover {
+        transform: translateY(-4px);
+      }
       @media (max-width: 1200px) {
         margin: 0px 11px 0px 11px;
       }
@@ -1496,6 +1510,10 @@ footer {
   width: 100%;
   max-width: 293px;
   margin: 40px 0px 0px 0px;
+  transition: all ease 0.2s;
+  &:hover {
+    box-shadow: 0px 0px 6px 3px rgba(255, 255, 255, 0.342);
+  }
   @media (max-width: 991px) {
     margin: 15px 0px 20px 0px;
   }
