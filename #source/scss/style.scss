@@ -822,7 +822,7 @@ h6 {
     position: relative;
     z-index: 1;
   }
-  @media (max-width: 768px) {
+  @media (max-width: 767px) {
     padding: 70px 0px 20px 0px;
   }
   .el9 {
@@ -887,7 +887,7 @@ h6 {
     position: relative;
     margin: 0px 0px 60px 0px;
     height: 100%;
-    @media (max-width: 768px) {
+    @media (max-width: 767px) {
       height: unset;
     }
     .absoluteLable {
@@ -949,7 +949,7 @@ h6 {
       @media (max-width: 991px) {
         height: 88.75%;
       }
-      @media (max-width: 768px) {
+      @media (max-width: 767px) {
         padding: 20px 15px 40px 15px;
         height: unset;
       }
@@ -1060,6 +1060,13 @@ h6 {
       color: #ffffff;
       width: 100%;
       max-width: 209px;
+      @media (max-width: 991px) {
+        max-width: 178px;
+        font-size: 19px;
+      }
+      @media (max-width: 767px) {
+        max-width: 209px;
+      }
     }
   }
 }
